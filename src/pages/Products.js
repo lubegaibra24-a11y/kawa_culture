@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 import ProductCard from '../components/ProductCard';
 import './Products.css';
 
@@ -200,7 +201,7 @@ const Products = () => {
               Looking for something specific? We accept custom orders for special occasions. 
               Contact us to discuss your requirements.
             </p>
-            <a href="/contact" className="contact-button">Contact Us</a>
+            <Link to="/contact" className="contact-button">Contact Us</Link>
           </div>
         </div>
       </section>

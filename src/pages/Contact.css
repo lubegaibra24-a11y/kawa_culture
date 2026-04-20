@@ -92,6 +92,10 @@
   font-size: 1.8rem;
   text-decoration: none;
   transition: transform 0.3s ease;
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
 }
 
 .social-icon:hover {
