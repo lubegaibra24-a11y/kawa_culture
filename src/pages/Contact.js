@@ -91,10 +91,10 @@ const Contact = () => {
               <div className="social-links">
                 <h3>Follow Us</h3>
                 <div className="social-icons">
-                  <button className="social-icon" title="Facebook">📘</button>
-                  <button className="social-icon" title="Instagram">📷</button>
-                  <button className="social-icon" title="Twitter">🐦</button>
-                  <button className="social-icon" title="WhatsApp">💬</button>
+                  <span className="social-icon" role="button" tabIndex="0" title="Facebook">📘</span>
+                  <span className="social-icon" role="button" tabIndex="0" title="Instagram">📷</span>
+                  <span className="social-icon" role="button" tabIndex="0" title="Twitter">🐦</span>
+                  <span className="social-icon" role="button" tabIndex="0" title="WhatsApp">💬</span>
                 </div>
               </div>
             </div>
