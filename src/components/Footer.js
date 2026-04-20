@@ -43,15 +43,15 @@ const Footer = () => {
           <ul className="footer-contact">
             <li>
               <span className="contact-icon">📞</span>
-              <span>+256 700 000000</span>
+              <span>0747266821</span>
             </li>
             <li>
               <span className="contact-icon">✉️</span>
-              <span>kawaculture@gmail.com</span>
+              <span>sarahasiimire42@gmail.com</span>
             </li>
             <li>
               <span className="contact-icon">📍</span>
-              <span>Kampala, Uganda</span>
+              <span>Makerere University, Food Science and Technology Incubation Centre</span>
             </li>
           </ul>
         </div>

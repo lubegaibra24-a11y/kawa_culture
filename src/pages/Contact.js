@@ -54,8 +54,7 @@ const Contact = () => {
                   <div className="contact-icon">📞</div>
                   <div className="contact-detail">
                     <h3>Phone</h3>
-                    <p>+256 700 000000</p>
-                    <p>+256 711 111111</p>
+                    <p>0747266821</p>
                   </div>
                 </div>
 
@@ -63,8 +62,7 @@ const Contact = () => {
                   <div className="contact-icon">✉️</div>
                   <div className="contact-detail">
                     <h3>Email</h3>
-                    <p>kawaculture@gmail.com</p>
-                    <p>orders@kawaculture.com</p>
+                    <p>sarahasiimire42@gmail.com</p>
                   </div>
                 </div>
 
@@ -72,8 +70,8 @@ const Contact = () => {
                   <div className="contact-icon">📍</div>
                   <div className="contact-detail">
                     <h3>Location</h3>
-                    <p>Kampala, Uganda</p>
-                    <p>Plot 123, Main Street</p>
+                    <p>Makerere University</p>
+                    <p>Food Science and Technology Incubation Centre</p>
                   </div>
                 </div>
 
@@ -164,7 +162,7 @@ const Contact = () => {
           <div className="map-placeholder">
             <span className="map-icon">🗺️</span>
             <p>Interactive Map</p>
-            <p className="map-address">Kampala, Uganda</p>
+            <p className="map-address">Makerere University, Food Science and Technology Incubation Centre</p>
           </div>
         </div>
       </section>
