@@ -20,8 +20,8 @@ const Home = () => {
         </div>
         <div className="hero-image-container">
           <img 
-            src="https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80" 
-            alt="Delicious baked goods" 
+            src="/images/group picture.jpeg"
+            alt="Kawa Culture team" 
             className="hero-image"
           />
         </div>

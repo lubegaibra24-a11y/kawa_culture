@@ -247,6 +247,114 @@
   }
 }
 
+/* Group Section */
+.group-section {
+  padding: 80px 20px;
+  background-color: #FFF8E7;
+}
+
+.group-info {
+  max-width: 800px;
+  margin: 0 auto;
+  background-color: #FFFFFF;
+  padding: 50px;
+  border-radius: 20px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, 0.08);
+}
+
+.group-header {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.group-badge {
+  display: inline-block;
+  background-color: #FF8C42;
+  color: #FFFFFF;
+  padding: 8px 24px;
+  border-radius: 25px;
+  font-weight: 600;
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+}
+
+.group-header h3 {
+  color: #3E2723;
+  font-size: 1.8rem;
+  margin: 0;
+}
+
+.team-leader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+  background: linear-gradient(135deg, #FFF8E7 0%, #FFE4C4 100%);
+  padding: 30px;
+  border-radius: 16px;
+  margin-bottom: 40px;
+}
+
+.leader-icon {
+  font-size: 3.5rem;
+}
+
+.leader-info {
+  display: flex;
+  flex-direction: column;
+}
+
+.leader-label {
+  color: #666;
+  font-size: 0.95rem;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+}
+
+.leader-name {
+  color: #3E2723;
+  font-size: 1.8rem;
+  font-weight: 700;
+}
+
+.team-members h4 {
+  text-align: center;
+  color: #3E2723;
+  font-size: 1.3rem;
+  margin-bottom: 25px;
+}
+
+.members-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+}
+
+.member-card {
+  background-color: #FFF8E7;
+  padding: 25px 15px;
+  border-radius: 12px;
+  text-align: center;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.member-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.member-icon {
+  font-size: 2.5rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.member-name {
+  color: #3E2723;
+  font-weight: 600;
+  font-size: 1rem;
+}
+
 @media screen and (max-width: 600px) {
   .about-header {
     padding: 60px 20px;
@@ -274,5 +382,18 @@
 
   .stat-label {
     font-size: 1rem;
+  }
+
+  .group-info {
+    padding: 30px 20px;
+  }
+
+  .team-leader {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .members-grid {
+    grid-template-columns: repeat(2, 1fr);
   }
 }

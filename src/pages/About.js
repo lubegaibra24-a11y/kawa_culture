@@ -12,6 +12,51 @@ const About = () => {
         </div>
       </section>
 
+      {/* Group Section */}
+      <section className="group-section">
+        <div className="section-container">
+          <h2 className="section-title">Meet Our Team</h2>
+          <div className="group-info">
+            <div className="group-header">
+              <span className="group-badge">Group 3</span>
+              <h3>Project Team</h3>
+            </div>
+            <div className="team-leader">
+              <div className="leader-icon">👩‍💼</div>
+              <div className="leader-info">
+                <span className="leader-label">Group Leader</span>
+                <span className="leader-name">Sarah</span>
+              </div>
+            </div>
+            <div className="team-members">
+              <h4>Team Members</h4>
+              <div className="members-grid">
+                <div className="member-card">
+                  <span className="member-icon">👤</span>
+                  <span className="member-name">Lubega</span>
+                </div>
+                <div className="member-card">
+                  <span className="member-icon">👤</span>
+                  <span className="member-name">Evas</span>
+                </div>
+                <div className="member-card">
+                  <span className="member-icon">👤</span>
+                  <span className="member-name">Rukundo</span>
+                </div>
+                <div className="member-card">
+                  <span className="member-icon">👤</span>
+                  <span className="member-name">Frank</span>
+                </div>
+                <div className="member-card">
+                  <span className="member-icon">👤</span>
+                  <span className="member-name">Benjamin</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* Company Story */}
       <section className="company-story">
         <div className="section-container">
@@ -144,6 +189,7 @@ const About = () => {
           </div>
         </div>
       </section>
+
     </div>
   );
 };
