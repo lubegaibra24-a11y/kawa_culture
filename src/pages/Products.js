@@ -110,7 +110,7 @@ const productsData = [
     name: "Strawberry Milkshake",
     description: "Creamy strawberry milkshake with fresh berries",
     price: 8000,
-    image: "https://images.unsplash.com/photo-1572490122747-3968b75cc699?w=400&q=80",
+    image: "/images/cake 9.jpg",
     category: "Milkshakes"
   },
   {
@@ -118,7 +118,7 @@ const productsData = [
     name: "Chocolate Milkshake",
     description: "Rich chocolate milkshake topped with whipped cream",
     price: 9000,
-    image: "https://images.unsplash.com/photo-1579954115545-a95591f28bfc?w=400&q=80",
+    image: "/images/cake 10.jpg",
     category: "Milkshakes"
   },
   {
@@ -126,7 +126,7 @@ const productsData = [
     name: "Vanilla Milkshake",
     description: "Classic vanilla milkshake with a cherry on top",
     price: 7500,
-    image: "https://images.unsplash.com/photo-1577805947697-89e18249d767?w=400&q=80",
+    image: "/images/cake 8.jpg",
     category: "Milkshakes"
   },
   {
