@@ -18,7 +18,7 @@ const productsData = [
     name: "Vanilla Celebration Cake",
     description: "Classic vanilla sponge with buttercream frosting",
     price: 40000,
-    image: "/images/cake 2.jpg",
+    image: "/images/vanilla celebration cake.jpg",
     category: "Cakes"
   },
   {
@@ -26,7 +26,7 @@ const productsData = [
     name: "Red Velvet Cake",
     description: "Velvety red cake with cream cheese frosting",
     price: 50000,
-    image: "/images/cake 3.jpg",
+    image: "/images/rv 1.jpg",
     category: "Cakes"
   },
   // Biscuits

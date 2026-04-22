@@ -7,7 +7,6 @@ const Contact = () => {
     email: '',
     message: ''
   });
-  const [isSubmitted, setIsSubmitted] = useState(false);
 
   const handleChange = (e) => {
     const { name, value } = e.target;
@@ -19,12 +18,11 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Simulate form submission
-    setIsSubmitted(true);
-    setTimeout(() => {
-      setIsSubmitted(false);
-      setFormData({ name: '', email: '', message: '' });
-    }, 3000);
+    const whatsappNumber = '256747266821';
+    const text = `Hello Kawa Culture!\n\nName: ${formData.name}\nEmail: ${formData.email}\n\nMessage:\n${formData.message}`;
+    const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(text)}`;
+    window.open(whatsappLink, '_blank');
+    setFormData({ name: '', email: '', message: '' });
   };
 
   return (
@@ -100,57 +98,50 @@ const Contact = () => {
             {/* Contact Form */}
             <div className="contact-form-container">
               <h2>Send us a Message</h2>
-              {isSubmitted ? (
-                <div className="success-message">
-                  <span className="success-icon">✅</span>
-                  <p>Thank you for your message! We'll get back to you soon.</p>
+              <form onSubmit={handleSubmit} className="contact-form">
+                <div className="form-group">
+                  <label htmlFor="name">Your Name</label>
+                  <input
+                    type="text"
+                    id="name"
+                    name="name"
+                    value={formData.name}
+                    onChange={handleChange}
+                    placeholder="Enter your name"
+                    required
+                  />
                 </div>
-              ) : (
-                <form onSubmit={handleSubmit} className="contact-form">
-                  <div className="form-group">
-                    <label htmlFor="name">Your Name</label>
-                    <input
-                      type="text"
-                      id="name"
-                      name="name"
-                      value={formData.name}
-                      onChange={handleChange}
-                      placeholder="Enter your name"
-                      required
-                    />
-                  </div>
 
-                  <div className="form-group">
-                    <label htmlFor="email">Email Address</label>
-                    <input
-                      type="email"
-                      id="email"
-                      name="email"
-                      value={formData.email}
-                      onChange={handleChange}
-                      placeholder="Enter your email"
-                      required
-                    />
-                  </div>
+                <div className="form-group">
+                  <label htmlFor="email">Email Address</label>
+                  <input
+                    type="email"
+                    id="email"
+                    name="email"
+                    value={formData.email}
+                    onChange={handleChange}
+                    placeholder="Enter your email"
+                    required
+                  />
+                </div>
 
-                  <div className="form-group">
-                    <label htmlFor="message">Your Message</label>
-                    <textarea
-                      id="message"
-                      name="message"
-                      value={formData.message}
-                      onChange={handleChange}
-                      placeholder="How can we help you?"
-                      rows="5"
-                      required
-                    ></textarea>
-                  </div>
+                <div className="form-group">
+                  <label htmlFor="message">Your Message</label>
+                  <textarea
+                    id="message"
+                    name="message"
+                    value={formData.message}
+                    onChange={handleChange}
+                    placeholder="How can we help you?"
+                    rows="5"
+                    required
+                  ></textarea>
+                </div>
 
-                  <button type="submit" className="submit-button">
-                    Send Message
-                  </button>
-                </form>
-              )}
+                <button type="submit" className="submit-button">
+                  Send Message
+                </button>
+              </form>
             </div>
           </div>
         </div>
