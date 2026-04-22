@@ -90,11 +90,15 @@
   font-weight: 600;
   cursor: pointer;
   transition: background-color 0.3s ease, transform 0.2s ease;
+  text-decoration: none;
+  display: inline-block;
+  text-align: center;
 }
 
 .order-button:hover {
   background-color: #E67E22;
   transform: scale(1.05);
+  color: #FFFFFF;
 }
 
 .order-button:active {

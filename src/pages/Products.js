@@ -10,7 +10,7 @@ const productsData = [
     name: "Chocolate Fudge Cake",
     description: "Rich, moist chocolate cake with creamy fudge frosting",
     price: 45000,
-    image: "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=400&q=80",
+    image: "/images/cake 1.jpg",
     category: "Cakes"
   },
   {
@@ -18,7 +18,7 @@ const productsData = [
     name: "Vanilla Celebration Cake",
     description: "Classic vanilla sponge with buttercream frosting",
     price: 40000,
-    image: "https://images.unsplash.com/photo-1565958011703-44f9829ba187?w=400&q=80",
+    image: "/images/cake 2.jpg",
     category: "Cakes"
   },
   {
@@ -26,7 +26,7 @@ const productsData = [
     name: "Red Velvet Cake",
     description: "Velvety red cake with cream cheese frosting",
     price: 50000,
-    image: "https://images.unsplash.com/photo-1586788680434-30d324b2d46f?w=400&q=80",
+    image: "/images/cake 3.jpg",
     category: "Cakes"
   },
   // Biscuits

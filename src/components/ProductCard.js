@@ -4,6 +4,10 @@ import './ProductCard.css';
 const ProductCard = ({ product }) => {
   const { name, description, price, image, category } = product;
 
+  const whatsappNumber = '256747266821';
+  const message = `Hello Kawa Culture! I would like to order: ${name} (UGX ${price.toLocaleString()}). Please let me know how to proceed.`;
+  const whatsappLink = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
   return (
     <div className="product-card">
       <div className="product-image-container">
@@ -15,7 +19,9 @@ const ProductCard = ({ product }) => {
         <p className="product-description">{description}</p>
         <div className="product-footer">
           <span className="product-price">UGX {price.toLocaleString()}</span>
-          <button className="order-button">Order Now</button>
+          <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="order-button">
+            Order Now
+          </a>
         </div>
       </div>
     </div>
