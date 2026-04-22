@@ -25,7 +25,7 @@ const About = () => {
               <div className="leader-icon">👩‍💼</div>
               <div className="leader-info">
                 <span className="leader-label">Group Leader</span>
-                <span className="leader-name">Sarah</span>
+                <span className="leader-name">Sarah Asiimire</span>
               </div>
             </div>
             <div className="team-members">
@@ -33,23 +33,39 @@ const About = () => {
               <div className="members-grid">
                 <div className="member-card">
                   <span className="member-icon">👤</span>
-                  <span className="member-name">Lubega</span>
+                  <span className="member-name">Lubega Jeremiah</span>
                 </div>
                 <div className="member-card">
                   <span className="member-icon">👤</span>
-                  <span className="member-name">Evas</span>
+                  <span className="member-name">Mugume Syleen</span>
                 </div>
                 <div className="member-card">
                   <span className="member-icon">👤</span>
-                  <span className="member-name">Rukundo</span>
+                  <span className="member-name">Sseyonga Frank</span>
                 </div>
                 <div className="member-card">
                   <span className="member-icon">👤</span>
-                  <span className="member-name">Frank</span>
+                  <span className="member-name">Kirabo Emanuella Joy</span>
                 </div>
                 <div className="member-card">
                   <span className="member-icon">👤</span>
-                  <span className="member-name">Benjamin</span>
+                  <span className="member-name">Lutaaya Benjamin Miles</span>
+                </div>
+                <div className="member-card">
+                  <span className="member-icon">👤</span>
+                  <span className="member-name">Ainomugisha Gorreti</span>
+                </div>
+                <div className="member-card">
+                  <span className="member-icon">👤</span>
+                  <span className="member-name">Mukamariho Rukundo</span>
+                </div>
+                <div className="member-card">
+                  <span className="member-icon">👤</span>
+                  <span className="member-name">Nuwayamba Alexander</span>
+                </div>
+                <div className="member-card">
+                  <span className="member-icon">👤</span>
+                  <span className="member-name">Kyoshabire Evas</span>
                 </div>
               </div>
             </div>
