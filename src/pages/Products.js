@@ -110,7 +110,7 @@ const productsData = [
     name: "Strawberry Milkshake",
     description: "Creamy strawberry milkshake with fresh berries",
     price: 8000,
-    image: "/images/cake 9.jpg",
+    image: "/images/strawberry milkshake.jpg",
     category: "Milkshakes"
   },
   {
