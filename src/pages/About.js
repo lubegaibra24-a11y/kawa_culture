@@ -99,8 +99,8 @@ const About = () => {
             </div>
             <div className="story-image">
               <img 
-                src="https://images.unsplash.com/photo-1556910103-1c02745aae4d?w=600&q=80" 
-                alt="Baking with passion" 
+                src="/images/group picture.jpeg" 
+                alt="Kawa Culture Group 3 Team" 
               />
             </div>
           </div>
